@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Quando');
+@import url('https://fonts.googleapis.com/css?family=Judson');
+
+/* === Page Styles === */
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+#Profile {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    margin: 40px;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2,
+button {
+    font-family: 'Quando', serif;
+}
+
+h3,
+h4,
+p {
+    font-family: 'Judson', serif;
+}
+
+
+/* === Content === */
+
+.profile-top {
+    background-color: #8ad4df;
+    margin-left: -30px;
+    margin-right: -30px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: -30px;
+    opacity: 0.5;
+}
+
+.profile-header i {
+    margin-top: 20px;
+}
+
+.fa-arrow-left {
+    margin-left: 20px;
+}
+
+.fa-bars {
+    margin-right: 20px;
+}
+
+.profile-header i:hover {
+    cursor: pointer;
+}
+
+.profile-user {
+    text-align: center;
+}
+
+.user-image {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.fa-user-alt {
+    color: white;
+    font-size: 150px;
+}
+
+.user-location {
+    font-size: 15px;
+    line-height: 0px;
+    opacity: 0.6;
+}
+
+.user-info {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.follow-button {
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.follow-button button {
+    background-color: #8ad4df;
+    background-image: linear-gradient(to right, #009bd3, #8ad4df);
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 25px;
+    color: white;
+    transition: 0.5s;
+}
+
+.follow-button button:hover {
+    letter-spacing: 2.5px;
+    cursor: pointer;
+}
+
+.follow-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.follow-stats div {
+    width: 100px;
+    text-align: center;
+    line-height: 0.3;
+}
+
+.follow-stats div:hover {
+    cursor: pointer;
+}
